@@ -19,3 +19,11 @@ Simple Interest = (P * R * T)/100
 
 
 ![S I Calculator](https://user-images.githubusercontent.com/108676977/212760014-83b163cd-1c93-4735-ac76-b22069fc4c72.png)
+
+
+>The result displayed by taking an example
+
+
+![result](https://user-images.githubusercontent.com/108676977/212761730-69087701-d6c5-4476-a6f4-f3ce96f4a53b.png)
+
+## Thank You
