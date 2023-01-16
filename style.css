@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+    position: fixed;
+    border-radius: 25px;
+    background-color: white;
+    justify-content: center;
+}
+.content
+{
+    padding:10px;
+    margin-left:25px;
+}
+.end
+{
+    padding:10px;
+}

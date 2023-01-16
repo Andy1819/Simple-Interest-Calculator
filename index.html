@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Web App - Simple Interest Calculator</title>
+</head>
+<body>
+    <div class="main" style="margin-left: 500px">
+        <h1 style="padding-left:20px; padding-right:20px; color:grey">Simple Interest Calculator</h1><br/>
+        <div class="content">
+            <span style="padding-right:65px">Amount</span>
+            <input type="text" id="amount">
+        </div>
+        <div class="content">
+            <span style="padding-right:20px">Interest Rate</span>
+            <input type="range" min="1" max="20" step="0.01" id="rating" onchange="change(this.value)">
+            <span id="rate">10.25%</span>
+        </div>
+        <div class="content">
+            <span style="padding-right:35px">No. of Years</span>
+            <select id="year">
+                <option  value="1">1</option>
+                <option  value="2">2</option>
+                <option  value="3">3</option>
+                <option  value="4">4</option>
+                <option  value="5">5</option>
+                <option  value="6">6</option>
+                <option  value="7">7</option>
+                <option  value="8">8</option>
+                <option  value="9">9</option>
+                <option  value="10">10</option>                
+            </select>
+        </div>
+        <div class="content">
+        <button onclick="check()">Compute Interest</button><br/><br/>
+        <span id="result"></span><br/>
+        </div>
+        <div class="end">
+        &copy;Everyone Can Get Rich<br/>This Calculator belongs to Anirudh D Verma
+        </div>
+    </div>
+</body>
+</html>
