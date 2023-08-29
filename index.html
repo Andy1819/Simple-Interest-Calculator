@@ -9,7 +9,9 @@
     <title>Web App - Simple Interest Calculator</title>
 </head>
 <body>
-    <div class="main" style="margin-left: 500px">
+    <div class="main" style="margin-left: 500px;margin-top: 100px;">
+        <div style="background-color: rgb(114, 231, 169);box-shadow: 0 0 60px rgba(0,0,0,0.2);border-radius: 20px 20px 20px 20px;margin-bottom: 30px;margin-left:30px;margin-right: 30px;border-width: 2px;border-style: dotted;margin-top: 30px;">
+
         <h1 style="padding-left:20px; padding-right:20px; color:grey">Simple Interest Calculator</h1><br/>
         <div class="content">
             <span style="padding-right:65px">Amount</span>
@@ -17,7 +19,7 @@
         </div>
         <div class="content">
             <span style="padding-right:20px">Interest Rate</span>
-            <input type="range" min="1" max="20" step="0.01" id="rating" onchange="change(this.value)">
+            <input type="range" min="1" max="20" step="0.01" id="rating"  onchange="change(this.value)">
             <span id="rate">10.25%</span>
         </div>
         <div class="content">
@@ -36,11 +38,15 @@
             </select>
         </div>
         <div class="content">
-        <button onclick="check()">Compute Interest</button><br/><br/>
+        <button class="debu"  onclick="check()">Compute Interest</button><br/><br/>
         <span id="result"></span><br/>
         </div>
         <div class="end">
         &copy;Everyone Can Get Rich<br/>This Calculator belongs to Anirudh D Verma
+        </div>
+    </div>
+    <div class="end">
+        Formula used :- Simple interest (S.I.) = (P×R×T)/100
         </div>
     </div>
 </body>
