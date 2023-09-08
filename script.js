@@ -17,7 +17,7 @@ function check()
                     You will receive an amount of <mark>${amount},</mark><br\>
                     in the year <mark>${years}</mark>
                     </p>`;
-        document.querySelector(".main").style.height = "450px";
+        document.querySelector(".main").style.height = "580px";
         document.getElementById("result").innerHTML = "";
         container.insertAdjacentHTML("afterbegin",data);
     }

@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-image: url('https://th.bing.com/th/id/OIP.klBCPSUeeELUZunwaSHUGwHaEK?pid=ImgDet&rs=1');
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .main{
@@ -12,6 +12,17 @@ body{
 {
     padding:10px;
     margin-left:25px;
+}
+.debu{
+    background-color: greenyellow;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2) ;
+}
+.debu:hover{
+    color:green;
+    background-color: rgb(141, 219, 115);
 }
 .end
 {
